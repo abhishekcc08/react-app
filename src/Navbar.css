@@ -1,0 +1,91 @@
+.navbar{
+    width: 100%;
+    height: 82px;
+    position: fixed;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid black ;
+    /* opacity: 0.9; */
+    margin-right: 50px;
+    display: grid;
+    grid-template-columns: 20px auto;
+    
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.navbar .centerside{
+    /* flex: 40%; */
+    height: 100%;
+    display: grid;
+    align-items: auto;
+    padding-left: 350px;
+}
+
+.navbar .centerside img{
+    width: 30px;
+    /* padding-left: 30px; */
+}
+
+.navbar .rightside{
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    padding-top: 2%;
+    padding-left: 25px;
+    /* padding-right: 30px; */
+}
+.navbar .rightside a:hover{
+    cursor: pointer;
+    color: blue;
+    background: none;
+}
+
+.navbar .rightside button {
+    background-color: transparent;
+    border: none;
+    display: inline;
+    color: black;
+    cursor: pointer;
+}
+.navbar .rightside img {
+    width: 30px;
+    height: 20px;
+   padding-left: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar .rightside button{
+        display: none;
+    }
+.hiddenLinks {
+    display: none;
+}
+}
+a{
+    position: relative;
+}
+.dropdown-menu{
+    position: absolute;
+    display: none;
+}
+a button .dropdown-menu a:hover{
+    color: blue;
+    background: none;
+}
+a:hover .dropdown-menu{
+    display: block;
+}
+
+.col1 img{
+width: 40px;
+}

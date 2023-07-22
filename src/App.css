@@ -1,0 +1,250 @@
+body{
+    color: black;
+    padding: 0;
+    margin: 0;
+    /* background-color: red; */
+    background-image: url(image/photo1.jpg) ;
+    background-repeat: repeat;
+    /* height: 870vh; */
+    width: 100%;
+    font-family: sans-serif;
+
+}
+.App {
+    color: black;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div p{
+    margin-top: 40px;
+    font-size: 30px;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif */
+}
+div h5{
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.btn1{
+    margin: 40px 0;
+    background-color: black;
+    color: white;
+border-radius: 8px;
+    padding: 12px 65px;
+cursor: pointer;
+}
+div h6{
+    font-weight: 100;
+    font-size: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 25px;
+}
+.row{
+    width: 1140px;
+    margin: 0 auto;
+}
+.row img{
+    width: 380px;
+    display: inline-block;
+    flex-direction: row;
+    position: relative;
+}
+h2{
+    margin-top: 40px;
+    font: 2em sans-serif;
+}
+p1{
+    font: 1.4em sans-serif;
+    text-align: justify;
+}
+.card1{
+    display: flex;
+    margin:30px auto;
+    justify-content: center;
+}
+.card{
+      margin: 0 50px;
+    width: 210px;
+}
+.div{
+    margin:0 0 0 170px;
+    display: flex;
+}
+.div img{
+    width: 500px;
+}
+.div .body{
+    margin:0 0 0 150px ;
+    text-align: justify;
+}
+.div .body h6{
+    font-size: 26px;
+    /* margin:0 0 0 100px ; */
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.div .body h2{
+    font-size: 45px;
+    /* margin:0 0 0 100px ; */
+    margin-top: -10px;
+}
+
+.div2{
+    margin-top: 30%;
+    padding-right: 50%;
+}
+
+.div2 .body h6{
+    font-size: 26px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.div2 .body h2{
+    font-size: 45px;
+    margin-top: 30px;
+}
+.div2 .body button:hover{
+    background-color: bisque;
+}
+.div2 .btn1{
+    translate: 250px -60px;
+}
+.div2 img{
+    width: 250px;
+translate: 560px -100px;
+}
+
+
+.div3{
+    display: flex;
+}
+.div3 img{
+    margin:0 0 0 250px;
+    width: 350px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.div3 .body{
+    margin: 0 0 0 200px;
+}
+.div4{
+    display: flex;
+    margin: 90px 100px;
+    height: 540px;
+    border-radius: 20px;
+    background-image: url("image/img1.jpg");
+}
+.div4 h6{
+    text-align: left;
+    padding: 60px 90px;
+    color:white;
+}
+
+.div4 .body{
+    margin: 30px 100px 30px 200px;
+    width: 500px;
+}
+.div4 .body #carouselExampleSlidesOnly img{
+border-radius: 20px;
+}
+
+.div5{
+    margin: 200px;
+}
+.div5 .card1 .card .card-body{
+    width: 400px;
+}
+.card-group1{
+    width: 1115px;
+    display: flex;
+    margin: 0 100px;
+    
+}
+
+.card-group1 img{
+height: 200px;
+width: 270px;
+}
+.card-group1 .card{
+    border: 1px solid black;
+    height: 450px;
+width: 400px;
+
+}
+.card-group1 .card-body:hover{
+color:green;
+cursor: pointer;
+}
+.row4{
+    position: fixed;
+    background-color: white;
+    height: 60vh;
+}
+.row4 img{
+    width: 40px;
+    margin-left: 9px;
+}
+.row4 img:hover{
+cursor: pointer;
+}
+.row4 .row5{
+display: flex;
+    flex-direction: row;
+    height: 340px;
+    border-bottom: 1px solid black;
+    /* justify-content: space-between; */
+}
+.row4 .row5 .col1{
+    width: 200px;
+    margin-top: -3px;
+    margin-left: 100px;
+    text-align: left;
+    align-items: flex-start;
+    height: 280px;
+    border-bottom: 1px solid black;
+}
+ .row4 .row5 .col1 h4{
+    transform: translate(33% ,-104%);
+}
+.row4 .row5 .col2{
+    height: 270px;
+    margin-left: 200px;
+        border-bottom: 1px solid black;
+}
+.row4 .row5 .col2 p{
+    margin-top: -3px;
+    font-size: 18px;
+    line-height: 26px;
+}
+.row4 .row5 .col2 p:hover{
+    color: #007dfc;
+    cursor:default;
+}
+.row4 .row5 .col3{
+    height: 270px;
+    margin-left: 200px;
+        border-bottom: 1px solid black;
+}
+
+.row4 .row5 .col3 p{
+    margin-top: -3px;
+    font-size: 18px;
+    line-height: 26px;
+}
+/* CSS for desktop screens */
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.heading {
+  font-size: 24px;
+  color: #333;
+}
+
+/* CSS for tablets */
